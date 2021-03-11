@@ -1,0 +1,40 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+ <LinearLayout
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical">
+
+  <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+      android:id="@+id/youtube_player_view"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+
+      app:autoPlay="true"
+      app:showFullScreenButton="true"
+      app:videoId="TDd_QU9Crmk" />
+
+  <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+      android:id="@+id/youtube_player_view2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+
+      app:autoPlay="true"
+      app:showFullScreenButton="true"
+      app:videoId="dzq3XOJ6cAI" />
+
+  <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+      android:id="@+id/youtube_player_view3"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+
+      app:autoPlay="true"
+      app:showFullScreenButton="true"
+      app:videoId="Jze8utzpLhg" />
+ </LinearLayout>
+</ScrollView>

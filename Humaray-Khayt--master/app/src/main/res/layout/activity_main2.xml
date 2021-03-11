@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view_crops12"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/image_View_12"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/image2"/>
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view_crops16"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="100dp">
+
+        <ImageView
+            android:id="@+id/image_View_glass"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:src="@drawable/mg_glass" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view_crops15"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+
+
+        android:layout_marginTop="400dp">
+
+        <ImageView
+            android:id="@+id/image_View_bazar"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:src="@drawable/bazzari_mash" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view_crops14"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="400dp">
+
+        <ImageView
+            android:id="@+id/image_View_f"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:src="@drawable/f" />
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>
